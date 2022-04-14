@@ -72,7 +72,7 @@ hr {
 }
 
 iframe{
-    align-items: center;
+    text-align: center;
 }
 
 nav ul li a {
@@ -98,9 +98,6 @@ header nav ul li {
     padding: 16px 16px;  
 }
 
-.column {
-    margin-right: 50px;
-}
 
 .videod {
     font-family: "Open Sans", sans-serif;
@@ -140,13 +137,6 @@ header nav ul li {
     text-shadow: 2px 2px 6px #9a9a9a; 
 
 }
-.gallery-links {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    -webkit-flex-flow: row wrap;
-    margin-top: 130px;
-}
 
 footer {
     width: calc(100% - 80px);
@@ -174,13 +164,8 @@ footer .footer-info {
     letter-spacing: 2px;
     text-transform: none;
 }
-
-.footer-sm {
-    width: 32px;
-    float: right;
+.content{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.footer-sm img {
-    width: 100%;
-    margin-bottom: 10px;    
-}
-
